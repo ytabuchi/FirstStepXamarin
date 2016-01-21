@@ -1,2 +1,2 @@
 # FirstStepXamarin
-はじめての Xamarin セミナー用のれレポジトリです。
+はじめての Xamarin セミナー用のレポジトリです。
