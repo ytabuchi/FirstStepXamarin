@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SecondStepXamarin.FeedTemplate">
+  <StackLayout Padding="10, 5, 10, 5" Spacing="10">
+    <Label Text="{Binding Title}" FontSize="Large">
+      <Label.TextColor>
+        <OnPlatform x:TypeArguments="Color"
+                    iOS="Blue"
+                    Android="Green"
+                    WinPhone="Red" />
+      </Label.TextColor>
+    </Label>
+    <Label Text="{Binding Description}" />
+    <Label Text="{Binding PubDate, StringFormat='{0:yyyy/MM/dd hh:mm}'}" TextColor="Gray" />
+  </StackLayout>
+</ContentView>
