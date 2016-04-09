@@ -11,7 +11,7 @@ namespace FirstStepXamarin
     {
         public App()
         {
-            MainPage = new NavigationPage(new Page3());
+            MainPage = new NavigationPage(new Page1());
         }
 
         protected override void OnStart()
