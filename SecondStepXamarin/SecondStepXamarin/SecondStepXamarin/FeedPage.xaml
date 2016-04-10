@@ -5,11 +5,13 @@
              x:Class="SecondStepXamarin.FeedPage">
   <ContentPage.Padding>
     <OnPlatform x:TypeArguments="Thickness"
-                iOS="0, 20, 0, 0"
-                Android="0"
-                WinPhone="0" />
+                iOS="0, 20, 0, 0" />
   </ContentPage.Padding>
-  <ListView x:Name="listView" ItemsSource="{Binding .}" VerticalOptions="FillAndExpand" HasUnevenRows="True" ItemTapped="listItemTapped">
+  <ListView x:Name="listView" 
+            ItemsSource="{Binding .}" 
+            VerticalOptions="FillAndExpand" 
+            HasUnevenRows="True" 
+            ItemTapped="listItemTapped">
     <ListView.ItemTemplate>
       <DataTemplate>
         <ViewCell>

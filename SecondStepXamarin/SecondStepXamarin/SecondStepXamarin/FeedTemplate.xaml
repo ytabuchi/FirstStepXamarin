@@ -7,7 +7,7 @@
       <Label.TextColor>
         <OnPlatform x:TypeArguments="Color"
                     iOS="Blue"
-                    Android="Green"
+                    Android="Yellow"
                     WinPhone="Red" />
       </Label.TextColor>
     </Label>

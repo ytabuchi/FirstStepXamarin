@@ -14,6 +14,7 @@ namespace SecondStepXamarin
         {
             InitializeComponent();
         }
+
         protected override async void OnAppearing()
         {
             base.OnAppearing();
